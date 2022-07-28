@@ -130,7 +130,6 @@ dmypy.json
 
 # custom gitignore
 
-/raw/*
 /model_bak/*
 model.pt
 save.json
