@@ -50,11 +50,11 @@ raw 폴더에 있는 txt파일 중 start~(end-1) 까지 튜닝시킴.
 
 * index는 0번째 부터 시작함. (ex) python fineTunning.py 0 5)
 * txt 파일의 인코딩 형식은 utf-8로 통일(다른 인코딩 형식은 무시됨.)
-* RAM 사용량이 많이 필요한 작업이니 개인 컴퓨터 보다는 colab에서 돌리는 것을 추천.
+* RAM 사용량이 많이 필요한 작업이니 개인 컴퓨터 보다는 colab에서 돌리는 것을 추천.  
 [kang_FineTuning.ipynb](https://colab.research.google.com/drive/1H3MDfWQTBsMd__Szz7byFJ0nurHp9Y_-?usp=sharing)
 
 # colab
-[colab project link](https://drive.google.com/drive/folders/1_lwPOVnlnSVfekPzwttxKJkc17DZ6FhC?usp=sharing) 
+[colab project link](https://drive.google.com/drive/folders/1_lwPOVnlnSVfekPzwttxKJkc17DZ6FhC?usp=sharing)  
 본인 구글 드라이브에 사본 만들기 하여 사용.
 
 * 실행시 본인 구글 드라이브 접근 동의 필요.
