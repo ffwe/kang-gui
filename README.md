@@ -54,14 +54,14 @@ raw 폴더에 있는 txt파일 중 start~(end-1) 까지 튜닝시킴.
 [kang_FineTuning.ipynb](https://colab.research.google.com/drive/1H3MDfWQTBsMd__Szz7byFJ0nurHp9Y_-?usp=sharing)
 
 # colab
-[colab project](https://drive.google.com/drive/folders/1_lwPOVnlnSVfekPzwttxKJkc17DZ6FhC?usp=sharing)
+[colab project link](https://drive.google.com/drive/folders/1_lwPOVnlnSVfekPzwttxKJkc17DZ6FhC?usp=sharing) 
 본인 구글 드라이브에 사본 만들기 하여 사용.
 
 * 실행시 본인 구글 드라이브 접근 동의 필요.
 * 절대경로 사용해서 '/gdrive/MyDrive/kang-colab/'에 맞추거나 소스 수정해야함.
-* 파인튜닝 시 런타임-런타임 유형 변경-하드웨어 가속기 gpu 사용 추천
+* 파인튜닝 시 메뉴에서 '런타임-런타임 유형 변경-하드웨어 가속기 gpu'로 설정 추천
 * 하드웨어 가속기 사용 시 gpu_activate = True로 설졍해야함.
-* 방식은 똑같음. raw폴더 참조해서 model.pt 학습시키는 방식.
+* 방식은 똑같음. raw폴더 참조해서 txt 파일들로 model.pt 학습시키는 방식.
 * raw에 들어간 txt파일이 많으면 model = fineTunningLoop(main_dir+"raw/",model,0,5)에서 숫자 부분을 수정하면 됨.
 
 # external source
