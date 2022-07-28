@@ -1,0 +1,2 @@
+python generator.py
+pause

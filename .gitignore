@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# custom gitignore
+
+/raw/*
+/model_bak/*
+model.pt
+save.json

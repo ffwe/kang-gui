@@ -1,0 +1,12 @@
+{
+	"generator_option":{
+		"max_length":64,
+		"repetition_penalty":10.0
+	},
+	"fineTunning_option":{
+		"ban_cards":[
+			".=.",
+			"[0-9]{5}."
+		]
+	}
+}

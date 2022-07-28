@@ -1,0 +1,2 @@
+python fineTunning.py
+pause
