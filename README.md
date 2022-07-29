@@ -66,14 +66,7 @@ raw 폴더에 있는 txt파일 중 start~(end-1) 까지 튜닝시킴.
 
 # external source
 
-## pytorch
-https://github.com/pytorch/pytorch
-
-## KoGPT2
-https://github.com/SKT-AI/KoGPT2
-
-## transformers
-https://github.com/huggingface/transformers
-
-## fastai
-https://github.com/fastai/fastai
+* [pytorch](https://github.com/pytorch/pytorch)
+* [KoGPT2](https://github.com/SKT-AI/KoGPT2)
+* [transformers](https://github.com/huggingface/transformers)
+* [fastai](https://github.com/fastai/fastai)
