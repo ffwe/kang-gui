@@ -9,7 +9,7 @@ korean ai novel generator
 2. 패키지 설치(패키지 설치.bat)
 ```sh
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
-pip install -q transformers~=4.12.0
+pip install transformers
 pip install fastai
 ```
 
