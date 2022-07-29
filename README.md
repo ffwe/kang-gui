@@ -19,6 +19,7 @@ python app.py
 ```
 
 # app 설명
+![app.png](./screenshot/app.png)
 
 ## 출력창
 마지막 줄 문장을 input해서 나온 텍스트를 뒤에 붙이는 방식.
@@ -28,7 +29,7 @@ python app.py
 공백을 제외한 출력창의 마지막 줄 문장을 input값으로
 generator 실행
 
-## init save.json
+## init save.json 버튼
 save.json의 내용을
 ```json
 {
@@ -42,6 +43,8 @@ save.json의 내용을
 ps. 간혹 멈추면 cmd가 일시정지해서 그런 걸수도 있으니 cmd에서 Enter 몇 번 누르면 됨.
 
 # 파인튜닝(fineTunning.py)
+![kang-flowchart.png](./screenshot/kang-flowchart.png)
+
 ```sh
 python fineTunning.py <start index> <end index>
 ```
@@ -59,9 +62,9 @@ raw 폴더에 있는 txt파일 중 start~(end-1) 까지 튜닝시킴.
 * 실행시 본인 구글 드라이브 접근 동의 필요.
 * 절대경로 사용해서 '/gdrive/MyDrive/kang-colab/'에 맞추거나 소스 수정해야함.
 * 파인튜닝 시 메뉴에서 '런타임-런타임 유형 변경-하드웨어 가속기 gpu'로 설정 추천
-* 하드웨어 가속기 사용 시 gpu_activate = True로 설졍해야함.
+* gpu 하드웨어 가속기 사용 시 gpu_activate = True로 설졍해야함.
 * 방식은 똑같음. raw폴더 참조해서 txt 파일들로 model.pt 학습시키는 방식.
-* raw에 들어간 txt파일이 많으면 model = fineTunningLoop(main_dir+"raw/",model,0,5)에서 숫자 부분을 수정하면 됨.
+* 많은 txt 파일을 한꺼번에 학습시키고 싶으면 model = fineTunningLoop(main_dir+"raw/",model,0,5)에서 숫자 부분을 수정하면 됨.
 
 # external source
 
